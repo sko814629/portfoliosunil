@@ -14,6 +14,14 @@ export default function Navbar() {
       setIsScrolled(window.scrollY > 20);
 
       const sections = NAV_LINKS.map((link) => document.querySelector(link.href)).filter(Boolean);
+      const nearBottom =
+        window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 40;
+
+      if (nearBottom && sections.length > 0) {
+        setActiveSection(`#${sections[sections.length - 1].id}`);
+        return;
+      }
+
       const scrollPos = window.scrollY + 140;
 
       for (let i = sections.length - 1; i >= 0; i -= 1) {
@@ -87,7 +95,11 @@ export default function Navbar() {
         </nav>
 
         <div className="navbar__actions">
-          <a href="#contact" className="btn btn--primary btn--sm navbar__cta">
+          <a
+            href="#contact"
+            className="btn btn--primary btn--sm navbar__cta"
+            onClick={() => handleLinkClick('#contact')}
+          >
             <span>Let&apos;s Talk</span>
             <ArrowUpRight size={15} strokeWidth={2.2} />
           </a>

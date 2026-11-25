@@ -59,7 +59,6 @@
   height: 0.34em;
   border-radius: 50%;
   background-color: var(--accent-lime);
-  border: 1.5px solid var(--text-primary);
 }
 
 .navbar__logo-dot {
@@ -78,8 +77,9 @@
   gap: 0.35rem;
   padding: 0.35rem;
   border-radius: var(--radius-pill);
-  background-color: rgba(255, 255, 255, 0.55);
+  background-color: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--border-subtle);
+  backdrop-filter: blur(12px);
 }
 
 .navbar__link {
@@ -98,14 +98,19 @@
 
 .navbar__link:hover {
   color: var(--text-primary);
-  background-color: rgba(20, 20, 19, 0.04);
+  background-color: rgba(255, 255, 255, 0.06);
 }
 
 .navbar__link--active {
-  color: var(--text-primary);
-  background-color: var(--bg-surface);
+  color: var(--text-inverse);
+  background-color: var(--accent-lime);
   font-weight: 600;
   box-shadow: var(--shadow-xs);
+}
+
+.navbar__link--active:hover {
+  color: var(--text-inverse);
+  background-color: var(--accent-lime-hover);
 }
 
 .navbar__actions {

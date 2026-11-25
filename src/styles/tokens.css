@@ -1,24 +1,24 @@
 :root {
-  /* Color Palette — Editorial Warm Off-White, Charcoal & Subtle Lime */
-  --bg-primary: #F7F6F2;
-  --bg-surface: #FFFFFF;
-  --bg-muted: #EDEBE3;
-  --bg-dark: #141413;
-  --bg-glass: rgba(247, 246, 242, 0.86);
+  /* Color Palette — Dark Modern Studio, Obsidian & Electric Lime */
+  --bg-primary: #0b0c0e;
+  --bg-surface: #13151a;
+  --bg-muted: #1b1e25;
+  --bg-dark: #c9f166;
+  --bg-glass: rgba(11, 12, 14, 0.8);
 
-  --text-primary: #141413;
-  --text-secondary: #4D4C47;
-  --text-tertiary: #75736C;
-  --text-inverse: #F7F6F2;
+  --text-primary: #f4f3ee;
+  --text-secondary: #a8abb5;
+  --text-tertiary: #727682;
+  --text-inverse: #0b0c0e;
 
-  --accent-lime: #C9F166;
-  --accent-lime-hover: #BAE748;
-  --accent-lime-soft: #EDF8CE;
-  --accent-lime-ink: #3B550B;
+  --accent-lime: #c9f166;
+  --accent-lime-hover: #d8f882;
+  --accent-lime-soft: rgba(201, 241, 102, 0.14);
+  --accent-lime-ink: #c9f166;
 
-  --border-subtle: rgba(20, 20, 19, 0.09);
-  --border-medium: rgba(20, 20, 19, 0.16);
-  --border-strong: rgba(20, 20, 19, 0.28);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.14);
+  --border-strong: rgba(255, 255, 255, 0.28);
 
   /* Typography */
   --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -49,10 +49,10 @@
   --radius-xl: 32px;
   --radius-pill: 9999px;
 
-  /* Elevation — Crisp Editorial Borders & Subtle Shadows */
-  --shadow-xs: 0 1px 2px rgba(20, 20, 19, 0.04);
-  --shadow-sm: 0 8px 24px -10px rgba(20, 20, 19, 0.08);
-  --shadow-md: 0 20px 44px -18px rgba(20, 20, 19, 0.12);
+  /* Elevation — Crisp Dark Glass & Depth */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-sm: 0 10px 28px -10px rgba(0, 0, 0, 0.55);
+  --shadow-md: 0 24px 54px -18px rgba(0, 0, 0, 0.75);
 
   /* Motion */
   --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);

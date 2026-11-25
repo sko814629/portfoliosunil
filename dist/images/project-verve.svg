@@ -1,0 +1,73 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowVerve" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 90) rotate(130) scale(460)">
+      <stop stop-color="#C9F166" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#0B0C0E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glassVerve" x1="120" y1="80" x2="840" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A1D24"/>
+      <stop offset="1" stop-color="#111318"/>
+    </linearGradient>
+    <linearGradient id="cardWarm" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#282B34"/>
+      <stop offset="1" stop-color="#171920"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="#0F1115"/>
+  <rect width="960" height="600" fill="url(#glowVerve)"/>
+  <g opacity="0.25">
+    <path d="M0 120H960M0 240H960M0 360H960M0 480H960" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    <path d="M160 0V600M320 0V600M480 0V600M640 0V600M800 0V600" stroke="#FFFFFF" stroke-opacity="0.06"/>
+  </g>
+  <!-- Browser Window -->
+  <rect x="86" y="72" width="788" height="466" rx="22" fill="url(#glassVerve)" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5"/>
+  <rect x="86" y="72" width="788" height="46" rx="22" fill="#171A21"/>
+  <rect x="86" y="102" width="788" height="16" fill="#171A21"/>
+  <line x1="86" y1="118" x2="874" y2="118" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <circle cx="118" cy="95" r="5" fill="#FF5F56" fill-opacity="0.75"/>
+  <circle cx="136" cy="95" r="5" fill="#FFBD2E" fill-opacity="0.75"/>
+  <circle cx="154" cy="95" r="5" fill="#27C93F" fill-opacity="0.75"/>
+  <rect x="350" y="85" width="260" height="20" rx="10" fill="#0B0C0E" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="480" y="99" text-anchor="middle" fill="#8D919E" font-family="monospace" font-size="10">verve-studio.shop</text>
+
+  <!-- Storefront Header -->
+  <text x="132" y="156" fill="#F4F3EE" font-family="sans-serif" font-weight="800" font-size="18" letter-spacing="-0.5">VERVE.</text>
+  <rect x="360" y="146" width="44" height="6" rx="3" fill="#A8ABB5" fill-opacity="0.5"/>
+  <rect x="422" y="146" width="52" height="6" rx="3" fill="#A8ABB5" fill-opacity="0.5"/>
+  <rect x="492" y="146" width="40" height="6" rx="3" fill="#A8ABB5" fill-opacity="0.5"/>
+  <rect x="756" y="138" width="74" height="26" rx="13" fill="#C9F166"/>
+  <text x="793" y="155" text-anchor="middle" fill="#0B0C0E" font-family="sans-serif" font-weight="700" font-size="11">BAG (2)</text>
+
+  <!-- Hero Banner -->
+  <rect x="132" y="184" width="430" height="170" rx="16" fill="#1F232C" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <rect x="156" y="206" width="110" height="22" rx="11" fill="#C9F166" fill-opacity="0.16"/>
+  <text x="211" y="221" text-anchor="middle" fill="#C9F166" font-family="monospace" font-size="10">AUTUMN EDITION</text>
+  <text x="156" y="260" fill="#F4F3EE" font-family="sans-serif" font-weight="700" font-size="24">Minimalist Objects</text>
+  <text x="156" y="288" fill="#A8ABB5" font-family="sans-serif" font-size="13">Curated studio essentials &amp; tactile forms.</text>
+  <rect x="156" y="308" width="116" height="28" rx="14" fill="#F4F3EE"/>
+  <text x="214" y="326" text-anchor="middle" fill="#0B0C0E" font-family="sans-serif" font-weight="700" font-size="11">Shop Collection</text>
+
+  <!-- Product Grid Cards -->
+  <rect x="582" y="184" width="248" height="170" rx="16" fill="url(#cardWarm)" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <circle cx="706" cy="252" r="46" fill="#C9F166" fill-opacity="0.2" stroke="#C9F166" stroke-opacity="0.55" stroke-width="1.5"/>
+  <rect x="684" y="228" width="44" height="48" rx="10" fill="#F4F3EE" fill-opacity="0.9"/>
+  <text x="606" y="328" fill="#F4F3EE" font-family="sans-serif" font-weight="600" font-size="13">Ceramic Lamp 04</text>
+  <text x="806" y="328" text-anchor="end" fill="#C9F166" font-family="monospace" font-size="12">$148</text>
+
+  <!-- Bottom Row Cards -->
+  <rect x="132" y="372" width="218" height="132" rx="14" fill="#171A21" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="152" y="392" width="76" height="58" rx="10" fill="#252934"/>
+  <text x="152" y="474" fill="#F4F3EE" font-family="sans-serif" font-weight="600" font-size="12">Linen Tote</text>
+  <text x="152" y="491" fill="#727682" font-family="monospace" font-size="10">In Stock • $64</text>
+
+  <rect x="368" y="372" width="218" height="132" rx="14" fill="#171A21" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="388" y="392" width="76" height="58" rx="10" fill="#252934"/>
+  <text x="388" y="474" fill="#F4F3EE" font-family="sans-serif" font-weight="600" font-size="12">Desk Tray Set</text>
+  <text x="388" y="491" fill="#727682" font-family="monospace" font-size="10">Limited • $92</text>
+
+  <rect x="604" y="372" width="226" height="132" rx="14" fill="#C9F166" fill-opacity="0.1" stroke="#C9F166" stroke-opacity="0.3"/>
+  <text x="626" y="410" fill="#C9F166" font-family="monospace" font-size="11">CART DRAWER</text>
+  <text x="626" y="438" fill="#F4F3EE" font-family="sans-serif" font-weight="700" font-size="16">Zero Layout Shift</text>
+  <rect x="626" y="456" width="182" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.15"/>
+  <rect x="626" y="472" width="130" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.1"/>
+</svg>

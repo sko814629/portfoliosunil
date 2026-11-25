@@ -1,0 +1,39 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glowKala" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(500 110) rotate(90) scale(420)">
+      <stop stop-color="#E8DFCE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0B0C0E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="960" height="600" fill="#101114"/>
+  <rect width="960" height="600" fill="url(#glowKala)"/>
+
+  <!-- Editorial Architecture Frame -->
+  <rect x="86" y="70" width="788" height="464" rx="22" fill="#16171B" stroke="#FFFFFF" stroke-opacity="0.13" stroke-width="1.5"/>
+  <text x="130" y="118" fill="#F4F3EE" font-family="serif" font-size="22" letter-spacing="1">KALA STUDIO</text>
+  <text x="830" y="116" text-anchor="end" fill="#A8ABB5" font-family="monospace" font-size="11">ARCHITECTURE • SPATIAL</text>
+  <line x1="130" y1="138" x2="830" y2="138" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <!-- Architectural Silhouette Illustration -->
+  <rect x="130" y="164" width="420" height="330" rx="14" fill="#212329" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <!-- Minimalist concrete building geometry -->
+  <path d="M180 440V250L310 205V440H180Z" fill="#2F323B"/>
+  <path d="M310 205L430 238V440H310V205Z" fill="#3D404A"/>
+  <rect x="214" y="290" width="42" height="58" fill="#0B0C0E" fill-opacity="0.55"/>
+  <rect x="348" y="275" width="48" height="86" fill="#C9F166" fill-opacity="0.22" stroke="#C9F166" stroke-opacity="0.45"/>
+  <path d="M150 440H520" stroke="#F4F3EE" stroke-opacity="0.25" stroke-width="2"/>
+  <circle cx="468" cy="212" r="24" fill="#E8DFCE" fill-opacity="0.85"/>
+
+  <!-- Editorial Copy Column -->
+  <text x="584" y="200" fill="#C9F166" font-family="monospace" font-size="11">FEATURED MONOGRAPH</text>
+  <text x="584" y="244" fill="#F4F3EE" font-family="serif" font-style="italic" font-size="34">Courtyard</text>
+  <text x="584" y="282" fill="#F4F3EE" font-family="sans-serif" font-weight="700" font-size="28">Pavilion 09</text>
+  <rect x="584" y="308" width="230" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.16"/>
+  <rect x="584" y="328" width="198" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="584" y="348" width="170" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.1"/>
+
+  <rect x="584" y="388" width="246" height="106" rx="14" fill="#1C1E24" stroke="#FFFFFF" stroke-opacity="0.09"/>
+  <text x="606" y="422" fill="#727682" font-family="monospace" font-size="10">WORDPRESS + ELEMENTOR</text>
+  <text x="606" y="450" fill="#F4F3EE" font-family="sans-serif" font-weight="600" font-size="15">Custom Case Study CMS</text>
+  <text x="606" y="472" fill="#C9F166" font-family="monospace" font-size="11">98 Lighthouse Performance</text>
+</svg>
