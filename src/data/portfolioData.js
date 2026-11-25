@@ -5,10 +5,10 @@ export const PERSONAL_INFO = {
   location: 'India',
   education: 'B.Tech in Computer Science (2022)',
   availability: 'Available for Opportunities',
-  email: 'sunil.kumar@example.com', // Placeholder: replace with actual email
-  linkedin: 'https://linkedin.com/in/your-profile', // Placeholder: replace with LinkedIn URL
-  github: 'https://github.com/your-username', // Placeholder: replace with GitHub URL
-  profileImage: '/images/sunil-portrait.jpg',
+  email: 'sk0814629@.com', // Placeholder: replace with actual email
+  linkedin: 'https://sk0814629linkedin.com/in/your-profile', // Placeholder: replace with LinkedIn URL
+  github: 'https://', // Placeholder: replace with GitHub URL
+  profileImage: '/images/sunil-portrait.png',
 };
 
 export const NAV_LINKS = [

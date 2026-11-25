@@ -70,7 +70,7 @@ export default function About() {
 
             <div className="about__cta-row">
               <a href="#projects" className="btn btn--primary">
-                <span>Explore Select Work</span>
+                <span>Explore Selected Work</span>
                 <ArrowUpRight size={17} strokeWidth={2.2} />
               </a>
               <a href="#contact" className="btn btn--secondary">
