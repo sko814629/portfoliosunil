@@ -1,0 +1,68 @@
+:root {
+  /* Color Palette — Editorial Warm Off-White, Charcoal & Subtle Lime */
+  --bg-primary: #F7F6F2;
+  --bg-surface: #FFFFFF;
+  --bg-muted: #EDEBE3;
+  --bg-dark: #141413;
+  --bg-glass: rgba(247, 246, 242, 0.86);
+
+  --text-primary: #141413;
+  --text-secondary: #4D4C47;
+  --text-tertiary: #75736C;
+  --text-inverse: #F7F6F2;
+
+  --accent-lime: #C9F166;
+  --accent-lime-hover: #BAE748;
+  --accent-lime-soft: #EDF8CE;
+  --accent-lime-ink: #3B550B;
+
+  --border-subtle: rgba(20, 20, 19, 0.09);
+  --border-medium: rgba(20, 20, 19, 0.16);
+  --border-strong: rgba(20, 20, 19, 0.28);
+
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Fluid Type Scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: clamp(1.5rem, 2.2vw, 2rem);
+  --text-3xl: clamp(2rem, 3.4vw, 3rem);
+  --text-hero: clamp(2.5rem, 5.2vw, 4.75rem);
+
+  /* Layout & Spacing */
+  --container-max: 1280px;
+  --container-gutter: clamp(1.25rem, 4vw, 3.25rem);
+  --section-space: clamp(4.5rem, 9vw, 8rem);
+  --nav-height: 80px;
+
+  /* Radii */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 9999px;
+
+  /* Elevation — Crisp Editorial Borders & Subtle Shadows */
+  --shadow-xs: 0 1px 2px rgba(20, 20, 19, 0.04);
+  --shadow-sm: 0 8px 24px -10px rgba(20, 20, 19, 0.08);
+  --shadow-md: 0 20px 44px -18px rgba(20, 20, 19, 0.12);
+
+  /* Motion */
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-fast: 180ms var(--ease-editorial);
+  --transition-base: 300ms var(--ease-editorial);
+  --transition-slow: 500ms var(--ease-editorial);
+
+  /* Z-index layers */
+  --z-base: 1;
+  --z-sticky: 50;
+  --z-overlay: 90;
+  --z-drawer: 100;
+}
